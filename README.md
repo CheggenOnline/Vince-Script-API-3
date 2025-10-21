@@ -21,13 +21,13 @@ Usage:
 
 Other:
 * The script automatically stores its own usage information in cugex (Update_Usage_information()), using this structure
-	> FILE (Table): V_USAGE
-	> PK01: Script Name
-	> PK02: Program Panel Name
-	> A030: Time first run
-	> A130: # runs
-	> A230: last run
-	> A330: last runned by
+  	* FILE (Table): V_USAGE
+	* PK01: Script Name
+	* PK02: Program Panel Name
+	* A030: Time first run
+	* A130: # runs
+	* A230: last run
+	* A330: last runned by
 	
 
 * The Script also stores its configuration info in cugex, using this structure:

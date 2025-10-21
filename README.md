@@ -1,25 +1,18 @@
 # Vince-Script-API-3
 Vince Script API 3
 
-The solutions consits of two scripts. The main script, Vince_Script_API_3, is the one to focus on. THe other script is a heler script that is used by the main script.
-This means that both scripts has to be uploaded to the script server, but only the main script is actually added as a shortcut in M3.
+The solutions consits of two scripts. The main script, Vince_Script_API_3, and a support script "Vince_Modal" that is used by the main script.
+To use the solution, both javascript files must be uploaded to the script database.
+In addition to these files you will also find the typescript files in this folder. These are included for reference so that those who wants to use parts of the code in their own scripts can do that.
 
 Disclaimer:
 This script is provided as-is and may be used at your own risk. Neither Vince nor Christian Heggen is responsible for maintaining, supporting, or ensuring the accuracy or reliability of this script.
 
-Content in this package:
-* Vince_Modal (V1.4)
-* Vince_Script_API_3 (V1.0)
-* Code-folder: This contains the typescript files for the two scripts, in case anyone wants to have a look
-
 Install:
 * Go to: M3 > H5 Administration Tools > H5 Administration > Data files
 * "Change file type" => H5 Script
-* Click "Import Zip"
-* Select the zipfile "UPLOAD ME"
-* Click "OK" when asked if you want to import the file
-* IF Zip upload fails, unpack the folder and upload the 2 files separately using the "upload" button
-
+* Click "Import" and then "OK"
+* Do this for both .js files
 
 Usage:
 * add the script as a shortcut in the program where you want to use it

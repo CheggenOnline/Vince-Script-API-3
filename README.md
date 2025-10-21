@@ -1,6 +1,9 @@
 # Vince-Script-API-3
 Vince Script API 3
 
+The solutions consits of two scripts. The main script, Vince_Script_API_3, is the one to focus on. THe other script is a heler script that is used by the main script.
+This means that both scripts has to be uploaded to the script server, but only the main script is actually added as a shortcut in M3.
+
 Content in this package:
 * Vince_Modal (V1.4)
 * Vince_Script_API_3 (V1.0)

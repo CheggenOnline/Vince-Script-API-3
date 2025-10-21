@@ -31,12 +31,12 @@ Other:
 	
 
 * The Script also stores its configuration info in cugex, using this structure:
-	> FILE: V_SCRIPT
-	> PK01: this.PK01
-	> PK02: Program Panel Name
-	> PK03: Script Key (from argument)
-	> A121: Records
-	> A030: API program + transaction
-	> A130 - A930: fieldName + ":" + inValue + ":" + fieldLength + ":" + fieldType + ":" + labelText;
+	* FILE: V_SCRIPT
+	* PK01: this.PK01
+	* PK02: Program Panel Name
+	* PK03: Script Key (from argument)
+	* A121: Records
+	* A030: API program + transaction
+	* A130 - A930: API field name : field (where to get value) : field Length : field Type : label Text
 
 
